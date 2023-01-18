@@ -1,3 +1,7 @@
+# Instalação
+
+Ao dar git clone no repositório e abrir na sua IDE, deve-se instalar o npm install para o funcionamento do projeto
+
 # Project
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.1.
