@@ -1,0 +1,53 @@
+<router-outlet></router-outlet>
+<form>
+    <div class="box-form">
+        <a style="font-weight: bold; padding-top: 15px;"> Curso </a>
+        <label for="title"> Nome :</label>
+        <input type="text" placeholder="digite o nome do curso" required/> 
+        <button class="pesquisar" routerLink="lista"> Pesquisar</button>
+        <div class="list-curso">
+            
+            <!-- Resultado da Pesquisa-->
+            <div>
+                <div>
+                    <hr size="1" width="95%">
+                </div>
+                <div></div>
+                <div class="line1-sistema">
+                    <a> Codigo </a>
+                    <a> Nome </a>
+                    <a> Instrutor </a>
+                    <a> Local </a>
+                    <a> Carga Horaria </a>
+                    <a> Data Inicio </a>    
+                </div>
+                <div>
+                    <hr size="1" width="95%"><br>
+                </div>
+                <div class="line2-sistema">
+                    <a style="font-weight: bold;"> 1 </a>
+                    <a> Angular </a>
+                    <a> Genival </a>
+                    <a> Softex </a>
+                    <a style="padding-right: 61px;">  36 </a>
+                    <a> 03/02/2023 </a>    
+                </div>
+                <div>
+                    <hr size="1" width="95%"><br>
+                </div>
+                <div class="line3-sistema">
+                    <a style="font-weight: bold;"> 2 </a>
+                    <a style="padding-right: 18px;"> Java </a>
+                    <a> Genival </a>
+                    <a> Softex </a>
+                    <a style="padding-right: 61px;">  60 </a>
+                    <a> 06/02/2023 </a>    
+                </div>
+            </div>
+            <div class="form-incluir">
+                <button class="incluir" routerLink="/curso"> Incluir </button>
+            </div>   
+        </div>
+    </div>
+</form>
+

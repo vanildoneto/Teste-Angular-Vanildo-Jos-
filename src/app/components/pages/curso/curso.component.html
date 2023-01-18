@@ -1,0 +1,40 @@
+<router-outlet></router-outlet>
+<form>
+    <div class="box-form">
+        <a style="font-weight: bold; padding-top: 15px;"> Curso - Incluir </a>
+        <label for="title"> Nome: </label><br>
+        <input type="text" placeholder="digite o nome do curso" required/> 
+    </div>
+
+    <div class="box-form">
+        <label for="title"> Instrutor: </label><br>
+        <input type="text" placeholder="digite o nome do Instrutor" required/> 
+    </div>
+
+    <div class="box-form">
+        <label for="title"> Local: </label><br>
+        <input type="text" placeholder="digite o local do curso" required/> 
+    </div> 
+
+    <div style="display: flex;">
+        <div class="box-form-hora">
+            <label for="title"> Carga Horária: </label><br>
+            <input type="number" placeholder="digite a carga horária" required/> 
+        </div>
+        <div class="box-form-data">
+            <label for="title"> Data Início: </label><br>
+            <input type="date" placeholder="digite a  data" required/> 
+        </div>
+    </div>
+
+    <div style="display: flex;">
+        <div class="form-incluir">
+            <button class="incluir" (click)="exibir()"> Incluir </button>
+        </div>  
+        <div class="form-incluir">
+            <button class="incluir" routerLink="/"> Voltar </button>
+        </div>  
+    </div>
+
+</form>
+

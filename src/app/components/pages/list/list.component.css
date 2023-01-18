@@ -1,0 +1,98 @@
+form {
+    width: 850px;
+    margin: 0 auto;
+    border: rgb(219, 217, 217) solid 2px;
+    border-radius: 5px;
+    height: auto;
+}
+
+.box-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.box-form label {
+    font-size: .9em;
+    margin-bottom: .4em;
+    margin-top: 2em;
+}
+
+.box-form input {
+    padding: 0.6em;
+    color: rgb(0, 0, 0);
+    font-size: 0.8em;
+    border-radius: 5px;
+}
+
+.pesquisar {
+    margin-top: 15px;
+    background-color:  rgb(20, 55, 250);
+    width: 7em;
+    height: 3em;
+    border: 0;
+    border-radius: 9px;
+    color: #fff;
+
+}
+
+.pesquisar:hover {
+    margin-top: 15px;
+    background-color:  rgb(19, 44, 184);
+    width: 7em;
+    height: 3em;
+    border: 0;
+    border-radius: 9px;
+    color: #fff;
+    
+}
+
+
+
+.line1-sistema {
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    padding-right: 65px;
+}
+
+.line2-sistema {
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 18px;
+}
+
+.line3-sistema {
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 18px;
+}
+
+.incluir {
+    margin-top: 15px;
+    background-color:  rgb(20, 55, 250);
+    width: 5em;
+    height: 3em;
+    border: 0;
+    border-radius: 9px;
+    color: #fff
+}
+
+.incluir:hover {
+    margin-top: 15px;
+    background-color: rgb(19, 44, 184);
+    width: 5em;
+    height: 3em;
+    border: 0;
+    border-radius: 9px;
+    color: #fff
+}
+
+
+
+.form-incluir {
+    padding-left: 15px;
+    padding-bottom: 10px;
+}

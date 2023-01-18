@@ -1,0 +1,13 @@
+.footer {
+    background-color:  rgb(0, 105, 217);
+    width: auto;
+    margin-top: 520px;
+}
+
+.box-footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+}
